@@ -1,4 +1,7 @@
 # LichFix
+
+version 1.0.0
+
 This mod is designed to fix / balance some of the problems facing by Lich players in Pathfinder: WotR. 
 
 *This is my first mod, so it may have bugs on updates on the game. Try remove it from the mod folder if your game crashed.
