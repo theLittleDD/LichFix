@@ -1,0 +1,7 @@
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\bin\Debug\LichFix\LichFix.dll
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\bin\Debug\LichFix\LichFix.pdb
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.csprojAssemblyReference.cache
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.csproj.CoreCompileInputs.cache
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.dll
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.pdb
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\bin\Debug\LichFix\Info.json
