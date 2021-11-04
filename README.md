@@ -6,7 +6,7 @@ This mod is designed to fix / balance some of the problems facing by Lich player
 
 *This is my first mod, so it may have bugs on updates on the game. Try remove it from the mod folder if your game crashed.
 
-Download: Nexusmods.com
+Download: https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/210
 
 As a lich player, I found that some of the core abilities / spells have bugs or have to be balanced. It shall allow you to have more fun.
 
