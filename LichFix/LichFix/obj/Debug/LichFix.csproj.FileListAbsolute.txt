@@ -5,3 +5,5 @@ G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\
 G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.dll
 G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.pdb
 G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\bin\Debug\LichFix\Info.json
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\bin\Debug\LichFix\ModKit.dll
+G:\我的雲端硬碟\BackUp Sync\Projects\Owlcat Mod\LichFix\LichFix\obj\Debug\LichFix.csproj.CopyComplete

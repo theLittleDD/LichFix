@@ -2,9 +2,11 @@
   "Id": "LichFix",
   "DisplayName": "LichFix",
   "Author": "theLittleDD",
-  "Version": "1.0.0",
+  "Version": "1.1.0",
   "ManagerVersion": "0.21.3",
   "Requirements": [],
   "AssemblyName": "LichFix.dll",
-  "EntryMethod": "LichFix.Main.Load"
+  "EntryMethod": "LichFix.Main.Load",
+  "HomePage":"https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/210",
+"Respository":"https://github.com/theLittleDD/LichFix/Repository.json"
 }
