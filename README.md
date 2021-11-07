@@ -1,12 +1,30 @@
 # LichFix
-
-version 1.0.0
-
 This mod is designed to fix / balance some of the problems facing by Lich players in Pathfinder: WotR. 
 
 *This is my first mod, so it may have bugs on updates on the game. Try remove it from the mod folder if your game crashed.
 
 Download: https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/210
+
+version 1.1
+
+- Option menu UI improved, press Ctrl + F10 to adjust setting in game
+
+- Eye of the Bodak:
+  1. Works as intended now (-1 level per round)
+  2. Removed Gaze Attack / Death Descriptor, so it works when the Lich have such immunities. It will however, pass through the immunities of enemies.
+
+- Eclipse Chill:
+  1. DC now equal to 10 + Character Level + Mythic Level
+
+- Tainted Sneak Attack:
+  1. DC now equal to 10 + Character Level + Mythic Level
+
+- Negative Eruption:
+  1. Maximum Damage set to 250 when Caster Level is 25.
+  2. Please be noted that there are no limitation on the maximum damage originally (even it is Max. 150 in description), so this is for balance only
+
+version 1.0.0
+
 
 As a lich player, I found that some of the core abilities / spells have bugs or have to be balanced. It shall allow you to have more fun.
 
