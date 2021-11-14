@@ -5,6 +5,10 @@ This mod is designed to fix / balance some of the problems facing by Lich player
 
 Download: https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/210
 
+version 1.1.1
+- Blessing of Unlife
+  1. Add an option to fix the Double Saving Bonus if WorldCrawl is also installed.
+
 version 1.1
 
 - Option menu UI improved, press Ctrl + F10 to adjust setting in game
