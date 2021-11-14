@@ -15,7 +15,8 @@ using Kingmaker.UnitLogic.Abilities.Components;
 using Kingmaker.EntitySystem.Stats;
 using Kingmaker.Utility;
 using Kingmaker.RuleSystem;
-using Kingmaker.Enums;
+using Kingmaker.Designers.Mechanics.Facts;
+using Kingmaker.Blueprints.Classes;
 using Kingmaker.UnitLogic.FactLogic;
 using System.Linq;
 using System.Collections;
@@ -49,11 +50,24 @@ namespace LichFix
             //1. patch lord beyond the grave
             if (Main.Settings.allowLichAuraAffectLivingWithBlessingOfUnlife)
             {
+                //remove the original undead-like resistance effect
+                ResourcesFinder.blessingOfUnlifeBuff.RemoveComponents<AddFacts>();
+                ResourcesFinder.blessingOfUnlifeBuff.RemoveComponents<AddFeatureIfHasFact>();
+
+                //add the undead Fact directly
                 ResourcesFinder.blessingOfUnlifeBuff.AddComponents(new BlueprintComponent[] { Helpers.CreateAddFact(ResourcesFinder.undeadTypeFact) });
                 Main.Log("Patched: Blessing of Unlife Buff >> add undead Fact >> Lord Beyond The Grave can affect allies with blessing of unlife buff now");
 
                 ResourcesFinder.lichBolsterUndeadAura.GetComponent<AbilityAreaEffectBuff>().CheckConditionEveryRound = true;
                 Main.Log("Patched: Lord Beyond The Grave will check condition every round to apply the buff now");
+            }
+
+            if (Main.Settings.fixBlessingOfUnlifeDoubleSavingWithWorldCrawl)
+            {
+                ResourcesFinder.blessingOfUnlifeBuff.AddComponents(new BlueprintComponent[] { 
+                    Helpers.CreateAddSavingThrowBonusAgainstDescriptorComponent(SpellDescriptor.MindAffecting,-8),
+                    Helpers.CreateAddSavingThrowBonusAgainstDescriptorComponent(SpellDescriptor.Death,-8),
+                });
             }
         }
 
