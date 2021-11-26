@@ -5,6 +5,11 @@ This mod is designed to fix / balance some of the problems facing by Lich player
 
 Download: https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/210
 
+version 1.2.0
+- Lord beyond the Grave
+  1. You can now choose the abilities affected by Lord beyond the Grave in the mod menu.
+  *Please be reminded that you need to restart after you make changes in the mod menu.
+
 version 1.1.1a
 - Blessing of Unlife
   1. Add an option to fix the Double Saving Bonus if WorldCrawl is also installed.
